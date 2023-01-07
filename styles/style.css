@@ -44,6 +44,102 @@
     cursor: pointer;
    }
 
+   /* About me area (extra section) */
+   .about-me-area{
+    padding:80px 15px;
+    background-color: #151414;
+   }
+   .about-me-area h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color:white;
+    margin-bottom: 50px;
+}
+    .about-me-area h2 span{
+        color:yellow;
+
+    }
+
+    .about_me_title{
+        border:1px solid yellow;
+        width: 250px;
+        padding: 20px 0;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .about-me-cotainer{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    /* about-me-left side */
+    .about-me-left{
+        width: 500px;
+    }
+    .about-me-left h3{
+        color: yellow;
+        margin-bottom: 10px;
+    }
+    .about-me-left p{
+        font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    }
+    .about-me-left button{
+        background-color: white;
+    color: blue;
+    padding: 12px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+
+    /* about-me-right side */
+    .about-me-right-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* right flex-area */
+    .skillset{
+        border: 1px solid rgba(128, 128, 128, 0.459);
+        margin-left: 15px;
+        width: 250px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .skillset h2{
+      color: yellow;
+      font-weight: 700;
+      font-size: 50px;
+      text-align: left;
+    }
+    .skillset h2 sup{
+        color: yellow;
+        font-weight: 700;
+        font-size: 30px;
+      }
+      .skillset p{
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: -50px;
+        margin-left: 40px;
+        
+      }
+      .flex-right p{
+        margin-left:35px
+      }
+      
+
+
 /* my failure section */
 .my-failure{
     margin-top: 100px;

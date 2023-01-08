@@ -15,7 +15,7 @@
 }
 .header-content{
  float:right;
- margin-right: 150px;
+ margin-right: 130px;
  margin-top: 180px;
  text-align: right;
  color:white;
@@ -46,16 +46,16 @@
 
    /* About me area (extra section) */
    .about-me-area{
-    padding:80px 15px;
+    padding:110px 130px;
     background-color: #151414;
    }
    .about-me-area h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
     color:white;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
     .about-me-area h2 span{
         color:yellow;
@@ -89,6 +89,7 @@
     font-weight: 400;
     margin-bottom: 20px;
     color: white;
+    line-height: 25px;
     }
     .about-me-left button{
         background-color: white;
@@ -142,23 +143,23 @@
 
 /* my failure section */
 .my-failure{
-    margin-top: 100px;
-    width: 1080px;
-    margin:0 auto
+    margin-top: 90px;
+   padding:0 110px
    
 }
 .my-failure-container{
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    align-items: center;
 
 }
 .my-failer-right{
     width: 500px;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 .my-failer-right h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -176,7 +177,7 @@
     margin-bottom: 10px;
 }
 .my-plan-section{
-    margin: 100px 10px 0 ;
+    margin: 100px 110px 0px 110px ;
     
 }
 .plan-heading{
@@ -218,8 +219,7 @@
     background-size:cover;
     height: 300px;
     margin: 25px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin:100px 110px
 
 }
 .cta-container{
@@ -236,7 +236,7 @@
     width: 400px;
 }
 .cta-left-text h2{
-    font-size: 35px;
+    font-size:40px;
     font-weight: 700;
     color: white;
 }
@@ -263,7 +263,7 @@
 .footer-container{
     display: flex;
     justify-content: space-between;
-    margin:0px 15px
+    margin:0px 110px
 }
 .footer-left{
     max-width: 450px;
@@ -321,7 +321,7 @@
     padding: 13px 10px;
     background: none;
     border-radius: 5px;
-    width: 200px;
+    width: 210px;
   }
   .footer-right input::placeholder{
     color:white
